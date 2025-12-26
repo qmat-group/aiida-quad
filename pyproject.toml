@@ -16,7 +16,7 @@ dependencies = [
 "quad-calculation" = "aiida_quad.calculation:QuadCalcJob"
 
 [project.entry-points."aiida.parsers"]
-"quad-calculation" = "aiida_quad.parser:QuadParser"
+"quad-parser" = "aiida_quad.parser:QuadParser"
 
 [tool.flit.module]
 name = "aiida_quad"

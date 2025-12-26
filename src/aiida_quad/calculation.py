@@ -20,7 +20,7 @@ class QuadCalcJob(CalcJob):
         spec.output('quad', valid_type=SinglefileData, help='Nghiem cua PT.')
 
         spec.input('metadata.options.output_filename', valid_type=str, default='result.quad')
-        spec.inputs['metadata']['options']['parser_name'].default = 'quad'
+        spec.inputs['metadata']['options']['parser_name'].default = 'quad-parser'
 
         spec.exit_code(
             300, 'ERROR_MISSING_OUTPUT_FILES', message='Calculation did not produce all expected output files.'
