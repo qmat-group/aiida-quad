@@ -13,10 +13,10 @@ dependencies = [
 ]
 
 [project.entry-points."aiida.calculations"]
-"quad" = "aiida_quad.calculation:QuadCalcJob"
+"quad-calculation" = "aiida_quad.calculation:QuadCalcJob"
 
 [project.entry-points."aiida.parsers"]
-"quad" = "aiida_quad.parser:QuadParser"
+"quad-calculation" = "aiida_quad.parser:QuadParser"
 
 [tool.flit.module]
 name = "aiida_quad"
